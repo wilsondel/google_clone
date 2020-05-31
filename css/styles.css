@@ -1,0 +1,110 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin-right: 30px;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 13px;
+}
+
+.header nav ul{
+    display:flex;
+    align-items: center;
+    justify-content:right;
+    justify-content: flex-end;
+}
+.header nav ul li {
+    margin-left: 10px;
+    
+}
+
+.search {
+    margin-top: 10%;
+    text-align: center;
+    height: 63vh;
+    position: relative;
+}
+.img-google-search img {
+    max-width: 230px;
+}
+.container-principal {
+    align-self: center;
+}
+.bar-search input {
+    width:30%;
+    border: 1px solid #dfe1e5;
+    height: 45px;
+    border-radius: 24px;
+    outline: none;
+    padding-left: 50px;
+    font-size: 16px;
+    background-image: url('../images/lens.jpg');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-position-x: 12px;
+    background-size:20px;
+}
+
+.buttons-google {
+    display: flex;
+    justify-content:center;
+    cursor: pointer;
+}
+
+.buttons-google div  {
+    background-color: #f2f2f2;
+    padding: 16px;
+    border-radius: 4px;
+    margin:20px 11px 30px 11px;
+
+}
+
+.buttons-google div a {
+    text-decoration: none;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size:14px;
+}
+.offer_by small a {
+    text-decoration: none;
+    line-height: 28px;
+}
+
+.footer {
+    width: 100vw;
+    background-color: #f2f2f2;
+    border: 1px solid #dfdfdf;
+    color:rgba(0,0,0,.54);
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer div ul {
+    display: flex;
+}
+
+
+.footer div ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.country {
+    padding-top: 10px;
+    margin-left: 50px;
+
+}
+
+.terms ul  {
+    margin-left: 500px;
+}
